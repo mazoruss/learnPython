@@ -1,22 +1,50 @@
 # -*- coding: utf-8 -*-
 
-# lesson 4
+# ============================================
 
-cars = 5
+# # ===============lesson 4 ================
 
-print 'there are', cars, 'cars.'
+# cars = 5
 
-#lesson 5
+# print 'there are', cars, 'cars.'
 
-tree = 'one'
-size = 10
+# # =============== lesson 5 =============
 
-print 'there is %s trees.' % tree
-print 'it\'s %d stories tall and %s million dollars' % (size, tree)
+# tree = 'one'
+# size = 10
 
-#lesson 6
+# print 'there is %s trees.' % tree
+# print 'it\'s %d stories tall and %s million dollars' % (size, tree)
 
-x = 'there are %d types of people' % 10
-binary = 'binary'
-do_not = "don't"
-y = 'those who know %s and those who %s' % (binary, do_not)
+# # ============= lesson 6 ===================
+
+# x = 'there are %d types of people' % 10
+# binary = 'binary'
+# do_not = "don't"
+# y = 'those who know %s and those who %s' % (binary, do_not)
+
+# print x
+# print y
+
+# print 'i said %r' % x
+# print "i also said '%s'" % y
+
+# hilarious = False
+# joke_evaluation = "isn't that joke so funny? %r"
+
+# print joke_evaluation % hilarious
+
+# w = 'left side'
+# e = 'a string'
+
+# print w + e
+
+# # =============== lesson 7 ================
+
+# print 'cheese',
+# print 'burger'
+
+# print '.' * 10
+
+
+
