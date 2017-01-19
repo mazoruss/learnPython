@@ -46,17 +46,55 @@
 
 # print '.' * 10
 
-# ================ lesson 8 ==================
+# # ================ lesson 8 ==================
 
-formatter = "%r %r %r %r"
+# formatter = "%r %r %r %r"
 
-print formatter % (1, 2, 3, 4)
-print formatter % ('one', 'two', 'three', 'four')
-print formatter % (formatter, formatter, formatter, formatter)
-print formatter % (
-	'this thing',
-	'next thing',
-	'what thing',
-	'that thing'
-	)
+# print formatter % (1, 2, 3, 4)
+# print formatter % ('one', 'two', 'three', 'four')
+# print formatter % (formatter, formatter, formatter, formatter)
+# print formatter % (
+# 	'this thing',
+# 	'next thing',
+# 	'what thing',
+# 	'that thing'
+# )
+
+# # ================ lesson 9 ==================
+# days = 'Mon Tue Wed'
+# months = 'Jan\nFeb\nMar'
+
+# print 'days: ', days
+# print 'months: ', months 
+
+# print '''
+# things 
+# more things
+# '''
+
+# # =================== lesson 10 =====================
+
+# tab = '\t tabs'
+# newline = '\n new lines'
+# slashes = '\\ slashes \\'
+# triples = '''
+# list: 
+# \t 1
+# \t 2
+# \t 3
+# '''
+
+# print(tab)
+# print(newline)
+# print(slashes)
+# print(triples)
+
+# # =============== lesson 11 ================
+# print 'how old are you'
+# age = raw_input()
+
+# print 'you are %r years old' % age
+
+
+
 
