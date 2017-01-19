@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
 
+cars = 5
 
+print 'there are', cars, 'cars.'
+
+#lesson 5
 
 tree = 'one'
 size = 10
