@@ -101,15 +101,33 @@
 
 # print 'you are %s and you are %d years old' % ( name, age )
 
-# ============== lesson 13 =================
+# # ============== lesson 13 =================
+# from sys import argv
+
+# script, first, second, third = argv
+
+# print 'script is: ', script
+# print 'first variable is: ', first
+# print 'second is: ', second
+# print 'third is: ', third
+
+# ================= lesson 14 ===================
 from sys import argv
 
-script, first, second, third = argv
+script, user = argv
 
-print 'script is: ', script
-print 'first variable is: ', first
-print 'second is: ', second
-print 'third is: ', third
+prompt = '> '
+
+print "Hi %s, I'm the %s script" % (user, script)
+print "how are you, %s" % user
+answer1 = raw_input(prompt)
+print "what kind of computer do you have?"
+answer2 = raw_input(prompt)
+
+print '''
+Alright, so you are doing %r
+and you have a %r, awesome!
+''' % (answer1, answer2)
 
 
 
