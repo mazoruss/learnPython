@@ -111,23 +111,81 @@
 # print 'second is: ', second
 # print 'third is: ', third
 
-# ================= lesson 14 ===================
+# # ================= lesson 14 ===================
+# from sys import argv
+
+# script, user = argv
+
+# prompt = '> '
+
+# print "Hi %s, I'm the %s script" % (user, script)
+# print "how are you, %s" % user
+# answer1 = raw_input(prompt)
+# print "what kind of computer do you have?"
+# answer2 = raw_input(prompt)
+
+# print '''
+# Alright, so you are doing %r
+# and you have a %r, awesome!
+# ''' % (answer1, answer2)
+
+# ============== lesson 15 ==============
+
 from sys import argv
 
-script, user = argv
+script, file = argv
 
-prompt = '> '
+txt = open(file)
 
-print "Hi %s, I'm the %s script" % (user, script)
-print "how are you, %s" % user
-answer1 = raw_input(prompt)
-print "what kind of computer do you have?"
-answer2 = raw_input(prompt)
+print "here's your file %r" % file
+print txt.read()
 
-print '''
-Alright, so you are doing %r
-and you have a %r, awesome!
-''' % (answer1, answer2)
+print "new file" 
+file2 = raw_input('> ')
+
+txt2 = open(file2)
+print txt2.read()
+
+
+# ============== lesson 16 ==============
+# ============== lesson 17 ==============
+# ============== lesson 18 ==============
+# ============== lesson 19 ==============
+# ============== lesson 20 ==============
+# ============== lesson 21 ==============
+# ============== lesson 22 ==============
+# ============== lesson 23 ==============
+# ============== lesson 24 ==============
+# ============== lesson 25 ==============
+# ============== lesson 26 ==============
+# ============== lesson 27 ==============
+# ============== lesson 28 ==============
+# ============== lesson 29 ==============
+# ============== lesson 30 ==============
+# ============== lesson 31 ==============
+# ============== lesson 32 ==============
+# ============== lesson 33 ==============
+# ============== lesson 34 ==============
+# ============== lesson 35 ==============
+# ============== lesson 36 ==============
+# ============== lesson 37 ==============
+# ============== lesson 38 ==============
+# ============== lesson 39 ==============
+# ============== lesson 40 ==============
+# ============== lesson 41 ==============
+# ============== lesson 42 ==============
+# ============== lesson 43 ==============
+# ============== lesson 44 ==============
+# ============== lesson 45 ==============
+# ============== lesson 46 ==============
+# ============== lesson 47 ==============
+# ============== lesson 48 ==============
+# ============== lesson 49 ==============
+# ============== lesson 50 ==============
+# ============== lesson 51 ==============
+# ============== lesson 52 ==============
+# ============== lesson 53 ==============
+# ============== lesson 54 ==============
 
 
 
