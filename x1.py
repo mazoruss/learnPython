@@ -90,11 +90,26 @@
 # print(triples)
 
 # # =============== lesson 11 ================
-# print 'how old are you'
+# print 'how old are you?',
 # age = raw_input()
 
 # print 'you are %r years old' % age
 
+# # =============== lesson 12 =================
+# name = raw_input('name? ')
+# age = int(raw_input('age? '))
+
+# print 'you are %s and you are %d years old' % ( name, age )
+
+# ============== lesson 13 =================
+from sys import argv
+
+script, first, second, third = argv
+
+print 'script is: ', script
+print 'first variable is: ', first
+print 'second is: ', second
+print 'third is: ', third
 
 
 
