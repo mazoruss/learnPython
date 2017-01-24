@@ -129,25 +129,56 @@
 # and you have a %r, awesome!
 # ''' % (answer1, answer2)
 
-# ============== lesson 15 ==============
+# # ============== lesson 15 ==============
+
+# from sys import argv
+
+# script, file = argv
+
+# txt = open(file)
+
+# print "here's your file %r" % file
+# print txt.read()
+
+# print "new file" 
+# file2 = raw_input('> ')
+
+# txt2 = open(file2)
+# print txt2.read()
+
+
+# ============== lesson 16 ==============
 
 from sys import argv
 
 script, file = argv
 
-txt = open(file)
+print "we are going to erase %r"
+print "if you don't want to do that, press CTRL+C"
+print "otherwise hit ENTER"
 
-print "here's your file %r" % file
-print txt.read()
+raw_input('?')
 
-print "new file" 
-file2 = raw_input('> ')
+print "opening the file"
 
-txt2 = open(file2)
-print txt2.read()
+target = open(file, 'w')
 
+print "truncating the file"
+target.truncate()
 
-# ============== lesson 16 ==============
+print "now I'm going to ask for three lines"
+line1 = raw_input('line 1: ')
+line2 = raw_input('line 2: ')
+line3 = raw_input('line 3: ')
+
+print "I'm going to write these to the file"
+target.write(line1 + '\n')
+target.write(line2 + '\n')
+target.write(line3 + '\n')
+
+print 'then we close it'
+target.close()
+
 # ============== lesson 17 ==============
 # ============== lesson 18 ==============
 # ============== lesson 19 ==============
