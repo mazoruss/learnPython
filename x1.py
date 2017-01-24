@@ -147,40 +147,85 @@
 # print txt2.read()
 
 
-# ============== lesson 16 ==============
+# # ============== lesson 16 ==============
 
-from sys import argv
+# from sys import argv
 
-script, file = argv
+# script, file = argv
 
-print "we are going to erase %r"
-print "if you don't want to do that, press CTRL+C"
-print "otherwise hit ENTER"
+# print "we are going to erase %r"
+# print "if you don't want to do that, press CTRL+C"
+# print "otherwise hit ENTER"
 
-raw_input('?')
+# raw_input('?')
 
-print "opening the file"
+# print "opening the file"
 
-target = open(file, 'w')
+# target = open(file, 'w')
 
-print "truncating the file"
-target.truncate()
+# print "truncating the file"
+# target.truncate()
 
-print "now I'm going to ask for three lines"
-line1 = raw_input('line 1: ')
-line2 = raw_input('line 2: ')
-line3 = raw_input('line 3: ')
+# print "now I'm going to ask for three lines"
+# line1 = raw_input('line 1: ')
+# line2 = raw_input('line 2: ')
+# line3 = raw_input('line 3: ')
 
-print "I'm going to write these to the file"
-target.write(line1 + '\n')
-target.write(line2 + '\n')
-target.write(line3 + '\n')
+# print "I'm going to write these to the file"
+# target.write(line1 + '\n')
+# target.write(line2 + '\n')
+# target.write(line3 + '\n')
 
-print 'then we close it'
-target.close()
+# print 'then we close it'
+# target.close()
 
-# ============== lesson 17 ==============
+# # ============== lesson 17 ==============
+
+# from sys import argv
+# from os.path import exists
+
+# script, from_file, to_file = argv
+
+# print "copying from %s to %s" % (from_file, to_file)
+# in_file = open(from_file)
+# indata = in_file.read()
+
+# print "the input is %d bytes long" % len(indata)
+# print "does output already exist? %r" % exists(to_file)
+# print "Ready. hit CTRL+C to cancel, ENTER to continue"
+
+# raw_input()
+
+# out_file = open(to_file, 'w')
+# out_file.write(indata)
+
+# print "Finished"
+
+# in_file.close()
+# out_file.close()
+
 # ============== lesson 18 ==============
+
+def print_two(*args) :
+	arg1, arg2 = args
+	print "arg1: %r, arg2: %r" % (arg1, arg2)
+
+def print_two_again(arg1, arg2) :
+	print "arg1: %r, arg2: %r" % (arg1, arg2)
+
+def print_one(arg1) :
+	print "arg1: %r" % arg1
+
+def print_none() :
+	print "nothing"
+
+print_two('one', 'two')
+print_two_again('two', 'one')
+print_one('one')
+print_none()
+
+
+
 # ============== lesson 19 ==============
 # ============== lesson 20 ==============
 # ============== lesson 21 ==============
